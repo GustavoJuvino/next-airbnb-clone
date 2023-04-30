@@ -25,6 +25,8 @@ const ListingClient: React.FC<ListingClientProps> = ({
         item.label === listing.category);
     }, [listing.category]);
 
+    console.log(listing.title)
+
   return (
     <Container>
         <div className="max-w-screen-lg mx-auto">
